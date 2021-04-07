@@ -1,1 +1,1 @@
-The basic requirements are
+Requirements 
