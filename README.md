@@ -5,5 +5,5 @@ A Simple Software for Examination Management System that can perform the followi
 1. Add/Delete the Details of the Students
 2. Attendance Monitoring of the students
 3. Set/Edit Eligibility criteria for exams
-4. heck Eligible Students for Exams
+4. Check Eligible Students for Exams
 5. Print all the records of the students
