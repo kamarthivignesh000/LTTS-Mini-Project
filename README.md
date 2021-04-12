@@ -1,7 +1,9 @@
 # LTTS-Mini-Project
 L&amp;T Technology Services Mini-Project (STEPIN_2021)
 
-![image](https://user-images.githubusercontent.com/65846052/114352748-d6b5de00-9b89-11eb-875a-905f0c205e73.png)
+# Examination Management System
+![image](https://user-images.githubusercontent.com/65846052/114353231-68bde680-9b8a-11eb-9c79-d00e7f4b3a9f.png)
+
 
 
 A Simple Software for Examination Management System that can perform the following operations:
