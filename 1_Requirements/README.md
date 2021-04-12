@@ -47,3 +47,6 @@ This software can be used anywhere in the globe.
 ## How:
 Enhance the efficiency of schools in meeting their requirements and capabilities. Communicate the key information and advice for good ecosystem
 
+# Detail Requirements
+## High level requirements
+
