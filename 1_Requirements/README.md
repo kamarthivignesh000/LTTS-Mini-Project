@@ -22,19 +22,10 @@ One major concern on exams is it should be beneficially conducted to ensure that
 
 ## Approach 
 The idea is to form an individual function for each operation. All the functions are unified together with switch cases to form software. Below is the illustration of the functions:
-1. execute(): This function will shows the available choices for the software and will perform the below functionality using Switch Statements.
-Functionality:
- 1. Add Student Details
- 2. Show Eligible Students
- 3. Delete Student Record
- 4. Update Eligibility Criteria
- 5. Print Details of Students
+1. execute(): This function will shows the available choices for the software and will perform the following functionality using Switch Statements.
+They are add Student Details, Show Eligible Students, delete Student Record, Update Eligibility Criteria, Print Details of Students.
 
-2. add(): This function that get the data from the user and update the list of the students. While adding the student into the list, check for the uniqueness of the Roll Number of the student. Details of the students to be added are:
- 1. Name of Student
- 2. Roll Number
- 3. Fees Status
- 4. Attendance Record of student
+2. add(): This function that get the data from the user and update the list of the students. While adding the student into the list, check for the uniqueness of the Roll Number of the student. Details of the students to be added are: Name of Student, Roll Number, Fees Status, Attendance Record of student.
 
 3. eligibleStudents(): This function shows the previous attendance percentage required for exams and get the data from the user and update the eligibility for the exams. It also updates the fee status required for the eligibility of exams by iterating over the List of the student records and for every student check the attendance percentage is above the percentage required and fee status of the student.
 
