@@ -50,12 +50,12 @@ Enhance the efficiency of schools in meeting their requirements and capabilities
 # Detail Requirements
 ## High level requirements
 
+|ID	  |Description 	                                  |Category
+|HR01	|User should be able to add a new student record| Technical
+|HR02	|User should be able to update a student record	| Technical
+|HR03	|User should be able to delete a patient record	| Technical
+|HR04	|User should be able to read data from a file	  | Technical
 
-ID	Description 	Category
-HR01	User should be able to add a new student record	Technical
-HR02	User should be able to update a student record	Technical
-HR03	User should be able to delete a patient record	Technical
-HR04	User should be able to read data from a file	Technical
 
 
 
