@@ -37,3 +37,13 @@ They are add Student Details, Show Eligible Students, delete Student Record, Upd
 
 ![2021-04-12 (2)](https://user-images.githubusercontent.com/65846052/114367236-e1786f00-9b99-11eb-8a94-cdcde636d16a.png)
 
+## 4W's and 1'H
+## Who: 
+This software can be used in all schools, colleges and universities.
+## What:
+The system ensures overall student development, along with eliminating the tedious admin tasks. It is easy to maintain and manage an ERP system than a hand written file.
+## Where:
+This software can be used anywhere in the globe.
+## How:
+Enhance the efficiency of schools in meeting their requirements and capabilities. Communicate the key information and advice for good ecosystem
+
