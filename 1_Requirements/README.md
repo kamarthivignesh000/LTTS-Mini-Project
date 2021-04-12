@@ -43,9 +43,9 @@ This software can be used in all schools, colleges and universities.
 ## What:
 The system ensures overall student development, along with eliminating the tedious admin tasks. It is easy to maintain and manage an ERP system than a hand written file.
 ## Where:
-This software can be used anywhere in the globe.
+This software can be used all across the globe.
 ## How:
-Enhance the efficiency of schools in meeting their requirements and capabilities. Communicate the key information and advice for good ecosystem
+Enhance the efficiency of schools in meeting their requirements and capabilities. Communicate the key information and advice for good ecosystem.
 
 # Detail Requirements
 ## High level requirements
@@ -57,6 +57,12 @@ Enhance the efficiency of schools in meeting their requirements and capabilities
 |HR03	|User should be able to delete a patient record	| Technical|
 |HR04	|User should be able to read data from a file	  | Technical|
 
+## Low level requirements
+|ID   |Description                                                                                            |HLR ID   |
+|:----|:------------------------------------------------------------------------------------------------------|:--------|
+|LR01 |While adding the student into the list, check for the uniqueness of the Roll Number of the student.    |HR01     |
+|LR02 |Get the data from the user and update the eligibility for the exams. User should updates the fee status|HR02     |
+|     |required for the eligibility of exams by iterating over the List of the student records .              |         |
 
 
 
