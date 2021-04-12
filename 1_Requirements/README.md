@@ -2,7 +2,7 @@
  ## Introduction
  The primary purpose of school examination management Software is to simplify teachers and staff work, by automating all school exam related operations and streamlining their routine tasks.
 
-# Research 
+## Research 
 The education system is witnessing unparalleled growth with technology. The new technology module came into existence with a revolutionary change in the pattern and arrangements of the exam system reducing time and manual efforts.
 
 As the conduction of the exam process is also different for all Schools, ensuring the best software embedded with awesome features will support in overall Examination Management Software.
