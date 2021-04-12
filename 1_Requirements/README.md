@@ -33,7 +33,7 @@ They are add Student Details, Show Eligible Students, delete Student Record, Upd
 
 5. delete(): This function get the student roll number to delete the student record and update the student’s list.
 
-## SWOT Analysis
+## SWOT ANALYSIS
 
 ![2021-04-12 (2)](https://user-images.githubusercontent.com/65846052/114367236-e1786f00-9b99-11eb-8a94-cdcde636d16a.png)
 
