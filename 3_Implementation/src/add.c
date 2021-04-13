@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"prototypes.h"
 void add(struct student s[50])
 {
