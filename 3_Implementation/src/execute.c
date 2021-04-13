@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"prototypes.h"
 
 void execute()
