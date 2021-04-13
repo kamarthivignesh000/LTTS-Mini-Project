@@ -6,6 +6,9 @@
  * 
  */
 #include<stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 /**
  * @brief Gets the data from user and updates the list of data
  * 
