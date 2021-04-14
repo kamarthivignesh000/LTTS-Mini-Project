@@ -13,7 +13,7 @@ A Simple Software for Examination Management System that can perform the followi
 
 |Build    |Code Quality     |Unity   |Git Inspector|
 |:--------|:----------------|:--------|:-----------|
-|[![C/C++ CI](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml)|To be done|[![Unit Testing - Unity](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/gitinspector.yml) |
+|[![C/C++ CI](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/cppcheck.yml)To be done|[![Unit Testing - Unity](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/gitinspector.yml) |
 
 ## Folder Structure
 |Folder|Description|
