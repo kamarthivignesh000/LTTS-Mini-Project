@@ -63,8 +63,5 @@ Enhance the efficiency of schools in meeting their requirements and capabilities
 |LR01 |While adding the student into the list, check for the uniqueness of the Roll Number of the student.    |HR01      |
 |LR02 |User should get the data from the students and update the eligibility for the exams. User should  updates the fee status required for the eligibility of exams.       |HR02      |                                        
 |LR03 |User should get the student roll number to delete the student record and update the student’s list.    |HR03      |
-|LR04 |User should be able to read the read the data by searching student's roll number or by printing all the available records.|HR04      |
+|LR04 |User should be able to read the read the data by searching student's roll number or by printing all the available records.|HR04  |
        
-
-
-
