@@ -19,4 +19,7 @@ A Simple Software for Examination Management System that can perform the followi
 |1_Requirement|Documents detailing and research|
 |2_Design|Documents regarding design details|
 |3_Implementation|All code and documentation|
-|4_Test_Plan|Documents with test plan and procedure|
+|4_TestPlanAndOutput|Documents with test plan and procedure|
+|5_Report|Project Report|
+|6_imagesAndVideos|Project output and videos|
+
