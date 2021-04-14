@@ -6,4 +6,7 @@ Architecture Design
 ## Use case diagram
 ![Untitled Workspace (1)](https://user-images.githubusercontent.com/65846052/114498726-3cfe3780-9c42-11eb-8acd-9e1d65ad55f0.png)
 
+## Low level design 
+### State diagram
+
 
