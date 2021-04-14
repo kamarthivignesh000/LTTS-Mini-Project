@@ -25,4 +25,4 @@ A Simple Software for Examination Management System that can perform the followi
 
 |Build    |Code Quality     |Unity   |Git Inspector|
 |:--------|:----------------|:--------|:-----------|
-| |[![C/C++ CI](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml)| |
+|[![C/C++ CI](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vinaybc/LTTS-Mini-Project/actions/workflows/c-cpp.yml)| | |
