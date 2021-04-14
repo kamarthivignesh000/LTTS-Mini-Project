@@ -12,3 +12,11 @@ A Simple Software for Examination Management System that can perform the followi
 3. Set/Edit Eligibility criteria for exams
 4. Check Eligible Students for Exams
 5. Print all the records of the students
+
+## Folder Structure
+|Folder|Description|
+|:-----|:----------|
+|1_Requirement|Documents detailing and research|
+|2_Design|Documents regarding design details|
+|3_Implementation|All code and documentation|
+|4_Test_Plan|Documents with test plan and procedure|
