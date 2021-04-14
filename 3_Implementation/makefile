@@ -1,70 +1,20 @@
-PROJ_NAME = StudentExamManagement_proj
-TEST_PROJ_NAME = Test_$(PROJ_NAME)
+CC=gcc
+CFLAGS=-fPIC -I. -Iinc -Iunity -std=c99 
+DEPS = student.h
+OBJ = src/ll.o src/student.o src/main.o
+TEST = test/test.o unity/unity.o src/ll.o src/student.o
 
-SRC =src/add.c \
-src/eligiblestudent.c \
-src/deletestudent.c \
-src/printstudent.c \
-src/execute.c 
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS) 
 
-COV_SRC = test.c
+exam: $(OBJ)
+	$(CC) -o $@ $^ $(CFLAGS) 
 
-TEST_SRC = test/test.c \
-unity/unity.c 
-INC_H = inc
-INC_T = unity
+utest: $(TEST)
+	$(CC) -o $@ $^ $(CFLAGS) 
 
-ifdef OS
-   RM = del 
-   FixPath = $(subst /,\,$1)
-   EXEC = exe
-else
-   ifeq ($(shell uname), Linux)
-      RM = rm -rf
-      FixPath = $1
-	  EXEC = out
-   endif
-endif
-.PHONY: run clean test doc all
-
-all:
-	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
-	
-run:
-	$(call FixPath,$(PROJ_NAME).$(EXEC))
-test:
-	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-
-coverage:
-	cp test/test.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(COV_SRC)
-	$(RM) *.$(EXEC)
-	$(RM) *.gcda
-	$(RM) *.gcno
-	$(RM) *.c.gcov
-	$(RM) *.DAT
-	$(RM) test.c
-
-
-
-cppcheck:
-	cppcheck --enable=all $(SRC) main.c
-
-debug:
-	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
-	gdb $(PROJ_NAME).$(EXEC)
-
+all: exam utest	
 valgrind:
-	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
-
-
+	valgrind ./exam
 clean:
-	$(RM) *.DAT
-	$(RM) *.$(EXEC)
-	$(RM) *.gcda
-	$(RM) *.gcno
-	$(RM) *.c.gcov
-	
+	rm -f src/*.o *.exam test/*.o *.utest
