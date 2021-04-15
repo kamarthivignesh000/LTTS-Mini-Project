@@ -8,7 +8,7 @@ Architecture Design
 
 ## Low level design 
 ### State diagram 
-Few chages to be done
+Few changes to be done
 ![2021-04-15 (2)](https://user-images.githubusercontent.com/65846052/114812864-824f7000-9dce-11eb-86be-1b5722243efb.png)
 
 
